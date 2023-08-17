@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+div{
+    margin-bottom: 1rem;
+}
+.ar-style{
+    height: 200px;
+    padding-left: 20px;
+    background-color: blueviolet;
+  }
+.para-style{
+    color: red;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+}
+p{
+    color: aqua;
+}
+.add{
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    font-size: large;
+}
+
+</style>
+</head>
+<body>
+<div>
+<video width="500" height="450" controls loop>
+
+<source src="./nondini.mp4" type="video/mp4">
+your browser does not support html5 video element
+</video>
+
+
+
+
+</div>
+
+<p> </p>
+
+
+
+
+
+
+    <div>
+        <iframe width="450px" height="300px"src ="https://www.bing.com/ck/a?!&&p=3a8ddeecf28ceee7JmltdHM9MTY5MjA1NzYwMCZpZ3VpZD0zNDYwNTdhZC02ZjA0LTZmMjgtMjhjNS00NDlkNmUwNTZlODEmaW5zaWQ9NTMzMg&ptn=3&hsh=3&fclid=346057ad-6f04-6f28-28c5-449d6e056e81&psq=studywithanis.com&u=a1aHR0cHM6Ly9hbmlzdWxpc2xhbS5uZXRsaWZ5LmFwcC8&ntb=1" h></iframe> </iframe>
+        <iframe width="450px" height="315px" 
+        src="https://www.youtube.com/embed/G3u4zuk-Fi8" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+<div class="ar-style">
+<p id="paraId">This is a Paragraph</p>
+    <button class="add" onclick="addStyle()">add style</button>
+    <button class="add"onclick="removeStyle()" >remove style</button>
+</div>
+<p></p>
+
+
+
+
+<button onclick="prev()">Previous</button>
+    <img src="images/1.jpg" alt="" height="250" width="300">
+    <button onclick="next()">next</button>
+<p></p>
+
+
+<form action="" class="form-div">
+<div>
+    <label for="name">name :
+    <input type="text" id="name" name="name"placeholder="enter your name" autofocus/>
+    </label>
+</div>
+<div>
+    <label for="email">email:
+    <input type="email" id="email" name="email" placeholder="email"/>
+    </label>
+</div>
+<div>
+    <label for="password"> password :
+    <input type="password" id="password" name="pasword" placeholder="password"/>
+    </label>
+</div>
+<div>
+    <input type="submit" value="signup"/>
+</div>
+</form>
+<script src="index2.js"></script>
+</body>
+</html>
